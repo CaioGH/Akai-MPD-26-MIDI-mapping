@@ -1,0 +1,36 @@
+<!-- AKAI MPD 26 MIDI MAPPING FOR 2 DECKS.
+   16 PADS;
+   4 BANKS {A,B,C,D};
+   6 FADERS;
+   6 KNOBS.
+ -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<mapper device="SIMPLE_MIDI" author="DjCaiotic" description="Simple MIDI wrapper" version="705" date="24/08/2017" priority="-10">
+
+
+<!-- PAD BANK A  / HOTCUES & EFFECTS -->
+ 
+  <!-- Deck 1 -->
+  <map value="0-1" action=" deck 1 hot_cue 1" />
+  <map value="0-2" action=" deck 1 hot_cue 2" />
+  <map value="0-3" action=" deck 1 hot_cue 3" />
+  <map value="0-4" action=" deck 1 hot_cue 4" />
+
+  <map value="0-5" action=" deck 1 #" />
+  <map value="0-6" action=" deck 1 #" />
+  <map value="0-7" action=" deck 1 #" />
+  <map value="0-8" action=" deck 1 #" />
+
+ <!-- Deck 2 -->
+  <map value="0-9"  action=" deck 2 hot_cue 1" />
+  <map value="0-10" action=" deck 2 hot_cue 2" />
+  <map value="0-11" action=" deck 2 hot_cue 3" />
+  <map value="0-12" action=" deck 2 hot_cue 4" />
+
+  <map value="0-13" action=" deck 2 #" />
+  <map value="0-14" action=" deck 2 #" />
+  <map value="0-15" action=" deck 2 #" />
+  <map value="0-16" action=" deck 2 #" />
+
+</mapper>
