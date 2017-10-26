@@ -3,6 +3,9 @@
    4 BANKS {A,B,C,D};
    6 FADERS;
    6 KNOBS.
+
+  For beginners: Open the "INSTRUCTIONS.TXT" file to understand how personalize this code.
+
  -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -32,5 +35,16 @@
   <map value="0-14" action=" deck 2 #" />
   <map value="0-15" action=" deck 2 #" />
   <map value="0-16" action=" deck 2 #" />
+
+<!-- Knobs -->
+  <!-- Order: Left to Right -->
+
+  <map value="0-CC11" action="deck 1 effect  default select" />
+  <map value="0-CC12" action="deck 2 effect  default select" />
+  <map value="0-CC13" action="deck 1 filter" />
+  <map value="0-CC14" action="deck 2 filter" />
+  <map value="0-CC15" action="deck 1 key" />
+  <map value="0-CC16" action="deck 2 key" />
+
 
 </mapper>
